@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <ul>
+      <li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_Revolut.png" alt="Logo Revolut">
+      </li>
+      <li><a href="#" class="focus">PERSONALE</a></li>
+      <li><a href="#">BUSINESS</a></li>
+      <li><a href="#">Tariffazione</a></li>
+      <li class="dropdown">
+        <a href="#">Accounts</a>
+        <div class="drop-menu">
+          <ul>
+            <li>
+              <a href="#">Standard</a>
+            </li>
+            <li>
+              <a href="#">Premium</a>
+            </li>
+            <li>
+              <a href="#">Metal</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#">Prodotti</a>
+        <div class="drop-menu">
+          <ul>
+            <li>
+              <a href="#">Trasferimenti di denaro</a>
+            </li>
+            <li>
+              <a href="#">Salvadanaio</a>
+            </li>
+            <li>
+              <a href="#">Gestione Budget</a>
+            </li>
+            <li>
+              <a href="#" id="beta">Perk</a>
+            </li>
+            <li>
+              <a href="#">Criptovaluta</a>
+            </li>
+            <li>
+              <a href="#">Assicurazione smartphone</a>
+            </li>
+            <li>
+              <a href="#">Assicurazione medica internazionale</a>
+            </li>
+            <li>
+              <a href="#">API di open banking</a>
+            </li>
+            <li>
+              <a href="#" id="new">Apple Pay</a>
+            </li>
+            <li>
+              <a href="#" id="new">Donazioni</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#">Azienda</a>
+        <div class="drop-menu">
+          <ul>
+            <li>
+              <a href="#">Chi siamo</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Lavora con noi</a>
+            </li>
+            <li>
+              <a href="#" id="new">Affiliates</a>
+            </li>
+            <li>
+              <a href="#">Influencers</a>
+            </li>
+            <li>
+              <a href="#">Contatto</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#">Aiuto</a>
+        <div class="drop-menu">
+          <ul>
+            <li>
+              <a href="#">Community</a>
+            </li>
+            <li>
+              <a href="#">Centro assistenza</a>
+            </li>
+            <li>
+              <a href="#">Security</a>
+            </li>
+            <li>
+              <a href="#">Stato di sistema</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#">
+          <span class="down active">IT <i class="fas fa-chevron-down"></i></span>
+          <span class="up">IT <i class="fas fa-chevron-up"></i></span>
+        </a>
+        <div class="drop-menu">
+          <ul>
+            <li>
+              <a href="#">Italiano</a>
+            </li>
+            <li>
+              <a href="#">English</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="btn">
+        <a href="#">Scarica l'app</a>
+      </li>
+    </ul>
+  </header>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>
