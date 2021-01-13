@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.dropdown').hover(function(){
+  $('li').hover(function(){
     $(this).children('.drop-menu').toggleClass('active');
     $(this).children('a').toggleClass('focus');
     $(this).find('.down').toggleClass('active');
